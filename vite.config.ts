@@ -6,6 +6,8 @@ import { defineConfig } from "vite";
 import eslintPlugin from 'vite-plugin-eslint';
 import { analyzer } from 'vite-bundle-analyzer';
 
+const enableAnalyzer = process.env.ANALYZE === "true";
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -20,9 +22,10 @@ export default defineConfig({
       include: ['./src//*.js', './src//*.jsx'],
       exclude: [],
     }),
-    analyzer({
-      exclude: ['**/heic-to.js', '**/livephotoskit*.js'],
-    }),
+    enableAnalyzer &&
+      analyzer({
+        exclude: ['**/heic-to.js', '**/livephotoskit*.js'],
+      }),
   ],
   optimizeDeps: {
     exclude: [
