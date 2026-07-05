@@ -2,6 +2,12 @@
   "name": "ffmpeg-motion-photo",
   "private": true,
   "version": "1.0.0",
+  "author": "oodicraft",
+  "homepage": "https://turn2live.oodicraft.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oodicraft/turn-video-into-live-photo.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

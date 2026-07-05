@@ -1,5 +1,7 @@
 # Live Photo and Motion Photo playground on browser
 
+Maintained by [oodicraft](https://github.com/oodicraft). Thanks to original author [ZZBD](https://github.com/flashlab) for the original project and documentation.
+
 [中文介绍](https://blog.zzbd.org/motion-live-photo-webui/) | [Blog article](https://blog.zzbd.org/en/motion-live-photo-webui/)
 
 A SPA online tool that converted and compressed [live photo](https://developer.apple.com/design/human-interface-guidelines/live-photos) and [motion photo](https://developer.android.com/media/platform/motion-photo-format?hl=zh-cn) for [web scenario](https://x.com/zhizhubaodan/status/1945887608397238688). Or you can preview any image - video (e.g. jpg and mp4 files) pair as live photo on your browser with the aid of [LivePhotosKit JS](https://developer.apple.com/documentation/livephotoskitjs). Or, create motion photo with some lucky. Any PRs are welcomed.

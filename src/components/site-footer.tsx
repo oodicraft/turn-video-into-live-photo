@@ -8,6 +8,15 @@ export function SiteFooter() {
           <div className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
             🌱 Built by{" "}
             <a
+              href="https://github.com/oodicraft"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium underline underline-offset-4"
+            >
+              oodicraft
+            </a>
+            . Thanks to original author{" "}
+            <a
               href="https://github.com/flashlab"
               target="_blank"
               rel="noreferrer"
@@ -17,7 +26,7 @@ export function SiteFooter() {
             </a>
             . Source at{" "}
             <a
-              href="https://github.com/flashlab/motion-live-photo"
+              href="https://github.com/oodicraft/turn-video-into-live-photo"
               target="_blank"
               rel="noreferrer"
               className="font-medium underline underline-offset-4"
